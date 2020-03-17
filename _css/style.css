@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(221, 247, 247);
+  }
+
+/*Configuração da div com id interface*/
+div#interface {
+    width: auto;
+    background-color: rgb(221, 247, 247);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    position: relative;
+}
+p {
+    text-align: center;
+    text-indent: 50px;
+}
+/*Configuração dos link's*/
+a {
+    color: rgb(65, 60, 60);
+    text-decoration: underline
+}
+a:hover {
+    text-decoration: underline;
+}
+/*Formatação do Menu*/
+nav#menu {
+    display: block; /*Fazer o bloco flutuar para posição correta.*/
+}
+nav#menu ul {
+    list-style: none; /*Some com os marcadores*/
+    text-transform: uppercase; /*Letras da lista em maiúsculo*/
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+}
+/*Mudança da lista para horinzontal*/
+nav#menu li {
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: cornsilk;
+}
+/*Esconder o menu principal*/
+nav#menu h1 {
+    display: none;
+}
+

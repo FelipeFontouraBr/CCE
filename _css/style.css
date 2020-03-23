@@ -1,58 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-@font-face {
-    font-family: 'FonteLogo';
-    src: url("../_fonts/bubblegum-sans-regular.otf");
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(221, 247, 247);
-  }
-
-/*Configuração da div com id interface*/
-div#interface {
-    width: auto;
-    background-color: rgb(221, 247, 247);
-    margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px black;
-    padding: 10px;
-    position: relative;
+.col-12 {
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    height: 735px;
 }
 p {
-    text-align: center;
-    text-indent: 50px;
+    margin-top: 40px;
+    text-align: center;            
 }
-/*Configuração dos link's*/
-a {
-    color: rgb(65, 60, 60);
-    text-decoration: underline
+div.col-6 p {
+    color: rgb(146, 122, 56);
+    font-size: 20pt;
 }
-a:hover {
+div.col-6 {
+    background-color: rgb(252, 243, 243);
+    }
+.col { /*Footer*/
+    background-color: rgb(252, 243, 243);
+}  
+.col-sm-6 {
+    background-color: rgb(252, 243, 243);
+}      
+.btn {
+    position: absolute;
+    color: black;
+    background-color: white;
+    border-radius: 25px;                       
+    left: 800px;
+    top: 600px;
+    }
+.btn:hover{
+    background-color: rgba(179, 153, 84, 0.719);
+    color: white;
     text-decoration: underline;
+    transition: background-color 1.2s;     
 }
-/*Formatação do Menu*/
 nav#menu {
-    display: block; /*Fazer o bloco flutuar para posição correta.*/
+    display: block;
 }
 nav#menu ul {
-    list-style: none; /*Some com os marcadores*/
-    text-transform: uppercase; /*Letras da lista em maiúsculo*/
+    list-style: none;
+    text-transform: uppercase;
     position: absolute;
-    top: 0px;
-    left: 1200px;
+    top: 30px;
+    left: 100px;
 }
-/*Mudança da lista para horinzontal*/
 nav#menu li {
     display: inline-block;
-    background-color: cadetblue;
+    background-color: white;
+    border-radius: 3px;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    transition: background-color 1s;            
 }
 nav#menu li:hover {
-    background-color: cornsilk;
+    background-color:rgb(146, 122, 56);
 }
-/*Esconder o menu principal*/
 nav#menu h1 {
-    display: none;
+    display:none;
 }
+#gif {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 8px;
+}
+
 

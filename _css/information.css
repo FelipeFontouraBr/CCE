@@ -1,0 +1,88 @@
+.col-12 {
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    height: 100px;
+}
+.col-12 p {
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 12px;
+    text-align: justify;            
+}
+a {
+    color: rgb(104, 85, 33);
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+div.col-12 {  
+    min-height: 778px;
+    min-width: 750px;                                      
+    }
+div.col-6 p {
+    color: rgb(146, 122, 56);
+    font-size: 19pt;
+    margin-top: 10px;
+    text-align: justify; 
+}
+div.col-6 {
+    background-color: rgb(252, 243, 243);
+}
+.col { /*Footer*/
+    background-color: rgb(252, 243, 243);
+} 
+.col p {
+    margin-top: 40px;
+    text-align: center;
+} 
+.col-sm-6 {
+    background-color: rgb(252, 243, 243);
+}      
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 10pt;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    transition: background-color 1s;            
+}
+nav#menu li:hover {
+    background-color:rgb(146, 122, 56);
+    color: white;
+}
+nav#menu h1 {
+    display:none;
+}
+.col-12 h1 {
+    color: rgb(104, 85, 33);
+    font-size: 15pt;
+    display: block;
+    background-color: white;        
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    margin-top: 40px;
+    
+}
+.col-12 h2 {
+    color: rgb(104, 85, 33);
+    font-size: 15pt;
+    display: block;
+    background-color: white;        
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    margin-top: 40px;
+}

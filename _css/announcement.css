@@ -8,8 +8,16 @@
     margin-right: 12px;
     text-align: justify;            
 }
+p {
+    margin-top: 40px;
+    text-align: center;            
+}
+a {
+    color: rgb(146, 122, 56)
+}
 a:hover {
     text-decoration: underline;
+    color: white;
 }
 div.col-12 {  
     min-height: 778px;
@@ -17,7 +25,7 @@ div.col-12 {
     }
 div.col-6 p {
     color: rgb(146, 122, 56);
-    font-size: 20pt;
+    font-size: 19pt;
     margin-top: 10px;
     text-align: justify; 
 }
@@ -42,7 +50,8 @@ nav#menu1 ul {
     text-transform: uppercase;
     position: absolute;
     top: 15px;
-    left: 100px;
+    left: 70px;
+    font-size: 10pt;
 }
 nav#menu1 li {
     display: inline-block;

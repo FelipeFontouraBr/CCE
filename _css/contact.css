@@ -2,53 +2,68 @@
     border: 1px solid rgba(197, 195, 195, 0.925);
     height: 100px;
 }
-p {
-    margin-top: 40px;
-    text-align: center;            
+.col-12 p {
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 12px;
+    text-align: justify;            
 }
 a {
     color: rgb(146, 122, 56);
 }
-a:hover{
+a:hover {
     text-decoration: underline;
     color: white;
 }
 div.col-12 {  
-    min-height: 735px;
+    min-height: 700px;
     min-width: 750px;                                      
     }
 div.col-6 p {
     color: rgb(146, 122, 56);
     font-size: 19pt;
     margin-top: 10px;
-    text-align: justify;
+    text-align: justify; 
 }
 div.col-6 {
     background-color: rgb(252, 243, 243);
 }
 .col { /*Footer*/
+    height: 158px;
     background-color: rgb(252, 243, 243);
-}  
+} 
 .col p {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
 } 
 .col-sm-6 {
     background-color: rgb(252, 243, 243);
 }      
-.btn {
-    position: absolute;
-    color: black;
-    background-color: white;
-    border-radius: 25px;            
-    left: 800px;
-    top: 600px;
-    }
-.btn:hover{
-    background-color: rgb(146, 122, 56);
-}
 nav#menu1 {
     display: block;
+}
+nav#menu1 ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+nav#menu1 li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    transition: background-color 1s;            
+}
+nav#menu1 li:hover {
+    background-color:rgb(146, 122, 56);
+    color: white;
+}
+nav#menu1 h1 {
+    display:none;
 }
 nav#menu1 ul {
     list-style: none;
@@ -67,48 +82,28 @@ nav#menu1 li {
     border: 1px solid rgba(197, 195, 195, 0.925);
     transition: background-color 1s;             
 }
-nav#menu1 li:hover {
-    background-color:rgb(146, 122, 56);
-    color: white;
-}
-nav#menu1 h1 {
-    display:none;
-}
-nav#menu2 {
-    display: block;
-}
-nav#menu2 ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50px;
-    left: -25px;
-}
-nav#menu2 li {
-    color:rgb(146, 122, 56);
-    display: block;
-    background-color: rgb(252, 243, 243);        
-    border-radius: 3px;
-    padding: 5px;
-    margin: 10px;        
-    transition: background-color 1s;            
-}
-nav#menu2 li:hover {
-    background-color:rgb(146, 122, 56);
-    color: white;
-}
-nav#menu2 h1 {
-    color: rgb(146, 122, 56);
-    margin-top: 160px;
-    margin-left: 105px;
+.col-12 h1 {
+    color: rgb(104, 85, 33);
     font-size: 15pt;
     display: block;
-    background-color: rgb(252, 243, 243);        
+    background-color: white;        
     border-radius: 3px;
     padding: 5px;
-    margin: 10px;  
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    margin-top: 40px;
+    
 }
-#maps {
-    margin-left: 300px;
-    margin-top: 10px;
+.col-12 h2 {
+    color: rgb(104, 85, 33);
+    font-size: 15pt;
+    display: block;
+    background-color: white;        
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.925);
+    margin-top: 40px;
+}
+#contact {
+    margin-top: 250px;
+    margin-left: 900px;
 }

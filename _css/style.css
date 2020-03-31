@@ -3,12 +3,21 @@
     height: 735px;
 }
 p {
-    margin-top: 40px;
-    text-align: center;            
+    margin-top: 25px;
+    margin-left: -50px;
+    text-align: center;          
+}
+a {
+    color: rgb(146, 122, 56)
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
 }
 div.col-6 p {
     color: rgb(146, 122, 56);
-    font-size: 20pt;
+    font-size: 19pt;
+    
 }
 div.col-6 {
     background-color: rgb(252, 243, 243);
@@ -24,7 +33,7 @@ div.col-6 {
     color: black;
     background-color: white;
     border-radius: 25px;                       
-    left: 800px;
+    left: 600px;
     top: 600px;
     }
 .btn:hover{
@@ -40,20 +49,22 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 30px;
-    left: 100px;
+    top: 25px;
+    left: 70px;
+    font-size: 10pt;
 }
 nav#menu li {
     display: inline-block;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 10px;
     margin: 2px;
     border: 1px solid rgba(197, 195, 195, 0.925);
-    transition: background-color 1s;            
+    transition: background-color 1s;             
 }
 nav#menu li:hover {
     background-color:rgb(146, 122, 56);
+    color: white;
 }
 nav#menu h1 {
     display:none;
